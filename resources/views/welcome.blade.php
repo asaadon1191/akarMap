@@ -56,7 +56,10 @@
                                                             <i></i>
                                                             <i></i>
                                                         </div>
-                                                            
+                                                    @else
+                                                        <h2 class="text-center">
+                                                            No Rates
+                                                        </h2>
                                                     @endif
                                                     
                                                     

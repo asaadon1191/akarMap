@@ -22,6 +22,9 @@ Auth::routes();
 
 Route::get('/','User\isersController@welcome')->name('welcome');
 
+Route::get('contactForm/','User\ContactUsController@contactForm')->name('contactForm');
+Route::post('submitMessage/','User\ContactUsController@submitMessage')->name('submitMessage');
+
 Route::prefix('user')->group(function()
 {
     Route::get('cities/{id}','User\searchController@cities')->name('Cities');

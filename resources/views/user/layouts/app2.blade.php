@@ -22,6 +22,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/user/styles/news.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/user/styles/news_responsive.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/user/styles/properties_responsive.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/user/styles/contact.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/user/styles/contact_responsive.css') }}">
 </head>
 <body>
 
